@@ -1,6 +1,7 @@
 package green.github.greengerong.soap.parse.model;
 
-public class OrderStatus {
+public class OrderStatus
+{
     private String orderId;
     private String customerId;
     private String transCode;
@@ -9,59 +10,73 @@ public class OrderStatus {
     private Statue statue;
     private String createBy;
 
-    public String getOrderId() {
+    public String getOrderId()
+    {
         return orderId;
     }
 
-    public void setOrderId(String orderId) {
+    public void setOrderId(String orderId)
+    {
         this.orderId = orderId;
     }
 
-    public String getCustomerId() {
+    public String getCustomerId()
+    {
         return customerId;
     }
 
-    public void setCustomerId(String customerId) {
+    public void setCustomerId(String customerId)
+    {
         this.customerId = customerId;
     }
 
-    public String getTransCode() {
+    public String getTransCode()
+    {
         return transCode;
     }
 
-    public void setTransCode(String transCode) {
+    public void setTransCode(String transCode)
+    {
         this.transCode = transCode;
     }
 
-    public String getActionCode() {
+    public String getActionCode()
+    {
         return actionCode;
     }
 
-    public void setActionCode(String actionCode) {
+    public void setActionCode(String actionCode)
+    {
         this.actionCode = actionCode;
     }
 
-    public String getErrorCode() {
+    public String getErrorCode()
+    {
         return errorCode;
     }
 
-    public void setErrorCode(String errorCode) {
+    public void setErrorCode(String errorCode)
+    {
         this.errorCode = errorCode;
     }
 
-    public Statue getStatue() {
+    public Statue getStatue()
+    {
         return statue;
     }
 
-    public void setStatue(Statue statue) {
+    public void setStatue(Statue statue)
+    {
         this.statue = statue;
     }
 
-    public String getCreateBy() {
+    public String getCreateBy()
+    {
         return createBy;
     }
 
-    public void setCreateBy(String createBy) {
+    public void setCreateBy(String createBy)
+    {
         this.createBy = createBy;
     }
 }

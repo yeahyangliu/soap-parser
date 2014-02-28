@@ -1,0 +1,20 @@
+<GetOrdersHistoryResponse xmlns="http://www.w3.org/2001/XMLSchema">
+    <orderStatuses>
+        <orderId>orderId</orderId>
+        <customerId>customerId</customerId>
+        <transCode>transCode</transCode>
+        <actionCode>actionCode</actionCode>
+        <errorCode>errorCode</errorCode>
+        <statue>None</statue>
+        <createBy>2010-12-1</createBy>
+    </orderStatuses>
+    <orderStatuses>
+        <orderId>orderId</orderId>
+        <customerId>customerId</customerId>
+        <transCode>transCode</transCode>
+        <actionCode>actionCode</actionCode>
+        <errorCode>errorCode</errorCode>
+        <statue>Open</statue>
+        <createBy>2012-1-1</createBy>
+    </orderStatuses>
+</GetOrdersHistoryResponse>

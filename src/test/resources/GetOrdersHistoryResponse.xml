@@ -3,7 +3,7 @@
 
     </SOAP-ENV:Header>
     <SOAP-ENV:Body>
-        <GetOrdersHistoryResponse>
+        <GetOrdersHistoryResponse xmlns="my:namespace">
             <orderStatuses>
                 <orderId>orderId</orderId>
                 <customerId>customerId</customerId>

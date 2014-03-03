@@ -9,7 +9,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/green/github/greengerong/soap/parse/model/NominationStatu.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/green/github/greengerong/soap/parse/model/Statue.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soap-parse.iws" afterPath="$PROJECT_DIR$/soap-parse.iws" />
     </list>
     <ignored path="soap-parse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -308,7 +307,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+            <state line="0" column="0" selection-start="0" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
               <folding />
             </state>
           </provider>
@@ -1072,12 +1071,12 @@
       <workItem from="1393290737983" duration="2650000" />
       <workItem from="1393407302140" duration="116000" />
       <workItem from="1393549863484" duration="7131000" />
-      <workItem from="1393809554724" duration="3651000" />
+      <workItem from="1393809554724" duration="3820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13548000" />
+    <option name="totallyTimeSpent" value="13717000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1534,7 +1533,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+        <state line="0" column="0" selection-start="0" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
           <folding />
         </state>
       </provider>

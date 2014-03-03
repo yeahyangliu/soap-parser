@@ -1,4 +1,4 @@
-package green.github.greengerong.soap.parse.model;
+package com.thoughtworks.domain;
 
 
 import javax.xml.bind.annotation.*;

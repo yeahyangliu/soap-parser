@@ -1,9 +1,9 @@
-package green.github.greengerong.soap.parse;
+package com.thoughtworks;
 
 
-import green.github.greengerong.soap.parse.model.GetOrdersHistoryResponse;
-import green.github.greengerong.soap.parse.model.OrderStatus;
-import green.github.greengerong.soap.parse.model.Statue;
+import com.thoughtworks.domain.GetOrdersHistoryResponse;
+import com.thoughtworks.domain.OrderStatus;
+import com.thoughtworks.domain.Statue;
 import org.apache.commons.io.IOUtil;
 import org.junit.Before;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package green.github.greengerong.soap.parse;
+package com.thoughtworks;
 
 
 import org.apache.commons.lang.StringUtils;

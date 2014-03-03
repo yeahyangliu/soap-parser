@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="593e8503-cd2b-4fb6-b30d-03ec7600e13c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/GetOrdersHistoryResponse.xml" afterPath="$PROJECT_DIR$/src/test/resources/GetOrdersHistoryResponse.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/MultipleNodes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/MultipleNodes.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/Statue.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/Statue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/xml.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/SoapParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/SoapParser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/SoapParserString.java" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/SoapParserString.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserStringTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/SoapParserStringTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/SoapParserTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/GetOrdersHistoryResponse.java" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/GetOrdersHistoryResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/OrderStatus.java" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/OrderStatus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soap-parse.iws" afterPath="$PROJECT_DIR$/soap-parse.iws" />
     </list>
     <ignored path="soap-parse.iws" />
@@ -95,7 +107,7 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/SoapParser.java" line="63" class="SoapParser.java" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/SoapParser.java" line="-1" class="SoapParser.java" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -110,7 +122,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserStringTest.java" line="24" class="green.github.greengerong.soap.parse.SoapParserStringTest" package="green.github.greengerong.soap.parse">
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/SoapParserStringTest.java" line="24" class="green.github.greengerong.soap.parse.SoapParserStringTest" package="green.github.greengerong.soap.parse">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -125,7 +137,22 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/SoapParserString.java" line="76" class="green.github.greengerong.soap.parse.SoapParserString" package="green.github.greengerong.soap.parse">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/SoapParserString.java" line="76" class="green.github.greengerong.soap.parse.SoapParserString" package="green.github.greengerong.soap.parse">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/SoapParserStringTest.java" line="40" class="green.github.greengerong.soap.parse.SoapParserStringTest" package="green.github.greengerong.soap.parse">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -249,20 +276,9 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="SoapParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/SoapParser.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/SoapParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="18" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="1173">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SoapParserTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="35" selection-start="784" selection-end="784" vertical-scroll-proportion="0.49379653" vertical-offset="90" max-vertical-offset="714">
+            <state line="52" column="18" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="1173">
               <folding />
             </state>
           </provider>
@@ -271,34 +287,34 @@
       <file leaf-file-name="GetOrdersHistoryResponse.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/GetOrdersHistoryResponse.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="11" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+            <state line="17" column="18" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NamedNodeMap.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/org/w3c/dom/NamedNodeMap.class">
+      <file leaf-file-name="MultipleNodes.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/MultipleNodes.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="40" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="476">
+            <state line="3" column="22" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Node.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/org/w3c/dom/Node.class">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="21" selection-start="2610" selection-end="2610" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="1785">
+            <state line="7" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xml.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/xml.xml">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="31" selection-start="26" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+            <state line="3" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.118329465" vertical-offset="0" max-vertical-offset="431">
               <folding />
             </state>
           </provider>
@@ -314,27 +330,36 @@
         </entry>
       </file>
       <file leaf-file-name="GetOrdersHistoryResponse.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/GetOrdersHistoryResponse.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/GetOrdersHistoryResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="43" selection-start="273" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+            <state line="11" column="30" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultipleNodes.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/MultipleNodes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="35" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="OrderStatus.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/OrderStatus.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/OrderStatus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="24" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+            <state line="2" column="24" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Statue.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/Statue.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/Statue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="12" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+            <state line="2" column="12" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
               <folding />
             </state>
           </provider>
@@ -366,9 +391,16 @@
         <option value="$PROJECT_DIR$/src/test/resources/xml.xml" />
         <option value="$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/SoapParser.java" />
         <option value="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserStringTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/SoapParserString.java" />
         <option value="$PROJECT_DIR$/src/test/resources/GetOrdersHistoryResponse.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/MutipleNodes.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/MutipleNodes.java" />
+        <option value="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserStringTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/MultipleNodes.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/MultipleNodes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/MultipleNodes.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -516,37 +548,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="parse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soap-parse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soap-parse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="thoughtworks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -572,7 +574,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="parse" />
+              <option name="myItemId" value="thoughtworks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap-parse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap-parse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thoughtworks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -623,20 +655,25 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="green.github.greengerong.soap.parse" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="green.github.greengerong.soap.parse.model" />
       <recent name="green.github.greengerong.soap.parse" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.thoughtworks" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.SoapParserStringTest.shouldGetOrdersHistoryRes">
+  <component name="RunManager" selected="JUnit.SoapParserStringTest.testMultipleNodes">
     <configuration default="false" name="SoapParserTest.shouldGetItemRes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -647,8 +684,8 @@
       <module name="soap-parse" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="green.github.greengerong.soap.parse" />
-      <option name="MAIN_CLASS_NAME" value="green.github.greengerong.soap.parse.SoapParserTest" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.SoapParserTest" />
       <option name="METHOD_NAME" value="shouldGetItemRes" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -675,8 +712,8 @@
       <module name="soap-parse" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="green.github.greengerong.soap.parse" />
-      <option name="MAIN_CLASS_NAME" value="green.github.greengerong.soap.parse.SoapParserTest" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.SoapParserTest" />
       <option name="METHOD_NAME" value="shouldGetOrdersHistoryRes" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -699,34 +736,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="SoapParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="green.github.greengerong.soap.parse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="soap-parse" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="green.github.greengerong.soap.parse" />
-      <option name="MAIN_CLASS_NAME" value="green.github.greengerong.soap.parse.SoapParserTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="SoapParserTest.shouldName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -737,8 +746,8 @@
       <module name="soap-parse" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="green.github.greengerong.soap.parse" />
-      <option name="MAIN_CLASS_NAME" value="green.github.greengerong.soap.parse.SoapParserTest" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.SoapParserTest" />
       <option name="METHOD_NAME" value="shouldName" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -765,9 +774,43 @@
       <module name="soap-parse" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="green.github.greengerong.soap.parse" />
-      <option name="MAIN_CLASS_NAME" value="green.github.greengerong.soap.parse.SoapParserStringTest" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.SoapParserStringTest" />
       <option name="METHOD_NAME" value="shouldGetOrdersHistoryRes" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SoapParserStringTest.testMultipleNodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="green.github.greengerong.soap.parse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="soap-parse" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.SoapParserStringTest" />
+      <option name="METHOD_NAME" value="testMultipleNodes" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -997,17 +1040,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.SoapParserTest.shouldGetItemRes" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.SoapParserTest.shouldGetOrdersHistoryRes" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SoapParserTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SoapParserTest.shouldName" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SoapParserStringTest.shouldGetOrdersHistoryRes" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SoapParserTest.shouldName" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SoapParserStringTest.shouldGetOrdersHistoryRes" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SoapParserStringTest.testMultipleNodes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SoapParserStringTest.shouldGetOrdersHistoryRes" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SoapParserTest.shouldGetOrdersHistoryRes" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SoapParserTest.shouldName" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SoapParserTest.shouldGetItemRes" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SoapParserTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SoapParserStringTest.testMultipleNodes" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SoapParserStringTest.shouldGetOrdersHistoryRes" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SoapParserTest.shouldGetOrdersHistoryRes" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SoapParserTest.shouldName" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SoapParserTest.shouldGetItemRes" />
       </list>
     </recent_temporary>
   </component>
@@ -1039,12 +1082,12 @@
       <workItem from="1393290737983" duration="2650000" />
       <workItem from="1393407302140" duration="116000" />
       <workItem from="1393549863484" duration="7131000" />
-      <workItem from="1393809554724" duration="1076000" />
+      <workItem from="1393809554724" duration="3076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10973000" />
+    <option name="totallyTimeSpent" value="12973000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1069,7 +1112,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3994709" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994709" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1082,7 +1125,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32936507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Aspects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1199,14 +1242,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/SoapParserString.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/SoapParserString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="41" selection-start="2486" selection-end="2490" vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="1598">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserStringTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/SoapParserStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="799">
           <folding>
@@ -1215,10 +1258,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/SoapParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="0" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="918">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1236,13 +1281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/xml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="26" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="306">
@@ -1250,33 +1288,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/GetOrdersHistoryResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/GetOrdersHistoryResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="24" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/OrderStatus.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/OrderStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1530">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/Statue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/Statue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="12" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/SoapParser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/SoapParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="23" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1292,10 +1328,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/SoapParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="18" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="918">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1311,33 +1349,31 @@
         <state line="154" column="31" selection-start="7570" selection-end="7570" vertical-scroll-proportion="0.0" vertical-offset="2618" max-vertical-offset="5270" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/GetOrdersHistoryResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/GetOrdersHistoryResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="138" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/OrderStatus.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/OrderStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/Statue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/Statue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="12" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/SoapParser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/SoapParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="23" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1353,10 +1389,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/SoapParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="18" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="918">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1372,21 +1410,21 @@
         <state line="154" column="31" selection-start="7570" selection-end="7570" vertical-scroll-proportion="0.0" vertical-offset="2618" max-vertical-offset="5270" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/GetOrdersHistoryResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/GetOrdersHistoryResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="138" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/OrderStatus.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/OrderStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/Statue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/Statue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="12" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
           <folding />
@@ -1431,69 +1469,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/xml.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/SoapParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="26" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+        <state line="52" column="18" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="1173">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/SoapParser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/Statue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="18" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1173">
+        <state line="2" column="12" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/SoapParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="35" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="714">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/OrderStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="24" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/GetOrdersHistoryResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/SoapParserStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1388" selection-end="1388" vertical-scroll-proportion="0.3325062" vertical-offset="546" max-vertical-offset="1054">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/Statue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/SoapParserString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+        <state line="80" column="0" selection-start="2859" selection-end="2859" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/domain/MultipleNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="35" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/GetOrdersHistoryResponse.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+        <state line="17" column="18" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserStringTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/MultipleNodes.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="0.3325062" vertical-offset="274" max-vertical-offset="799">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/SoapParserString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="0" selection-start="2878" selection-end="2878" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1258">
+        <state line="3" column="22" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/OrderStatus.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="24" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+        <state line="7" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/GetOrdersHistoryResponse.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="43" selection-start="273" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="35" selection-start="784" selection-end="784" vertical-scroll-proportion="0.49379653" vertical-offset="90" max-vertical-offset="714">
+        <state line="3" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.118329465" vertical-offset="0" max-vertical-offset="431">
           <folding />
         </state>
       </provider>

@@ -4,8 +4,13 @@
     </SOAP-ENV:Header>
     <SOAP-ENV:Body>
         <GetOrdersHistoryResponse xmlns="my:namespace">
+            <requestHeader>
+                <opreation>
+                    a
+                </opreation>
+            </requestHeader>
             <orderStatuses>
-                <orderId>orderId</orderId>
+                <orderId></orderId>
                 <customerId>customerId</customerId>
                 <transCode>transCode</transCode>
                 <actionCode>actionCode</actionCode>

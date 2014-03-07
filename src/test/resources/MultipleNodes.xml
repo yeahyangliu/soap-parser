@@ -29,6 +29,12 @@
                     <createBy>2012-1-1</createBy>
                 </orderStatus>
             </orderStatuses>
+            <applicationerrors>
+                <applicationerror>
+                    <errorStatus>true</errorStatus>
+                    <errorId>001</errorId>
+                </applicationerror>
+            </applicationerrors>
         </GetOrdersHistoryResponse>
 
     </SOAP-ENV:Body>

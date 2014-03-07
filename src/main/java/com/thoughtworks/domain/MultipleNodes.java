@@ -13,13 +13,27 @@ public class MultipleNodes
     @XmlElement(name = "orderStatus")
     private List<OrderStatus> orderStatuses;
 
+
+    @XmlElementWrapper(name = "applicationerrors")
+    @XmlElement(name = "applicationerror")
+    private List<ApplicationError> applicationErrors;
+
     public List<OrderStatus> getOrderStatuses()
     {
         return orderStatuses;
     }
 
     public void setOrderStatuses(List<OrderStatus> orderStatuses)
+
     {
         this.orderStatuses = orderStatuses;
+    }
+
+    public List<ApplicationError> getApplicationErrors() {
+        return applicationErrors;
+    }
+
+    public void setApplicationErrors(List<ApplicationError> applicationErrors) {
+        this.applicationErrors = applicationErrors;
     }
 }

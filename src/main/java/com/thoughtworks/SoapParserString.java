@@ -45,7 +45,8 @@ public class SoapParserString {
         final StringWriter sw = new StringWriter();
         transformer.transform(new DOMSource(firstElement), new StreamResult(sw));
         String xml = sw.toString();
-        return xml.replaceAll("xmlns=\"my:namespace\"", "");
+        return xml;
+//        return xml.replaceAll("xmlns=\"my:namespace\"", "");
 
 
     }

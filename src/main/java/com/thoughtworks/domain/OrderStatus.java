@@ -1,5 +1,7 @@
 package com.thoughtworks.domain;
 
+import javax.xml.bind.annotation.XmlElement;
+
 public class OrderStatus
 {
     private String orderId;
